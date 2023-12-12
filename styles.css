@@ -1,9 +1,4 @@
-* {
-	margin: 0;
-	border: 1px solid red;
-	padding: 0;
-}
-
+/* VARIABLES */
 :root {
 	color-1: #ffffff;
 	color-2: #f8f8f8;
@@ -12,4 +7,12 @@
 	color-5: #143774;
 	color-6: #707070;
 	color-7: #717171;
+}
+
+/* RESET */
+* {
+	margin: 0;
+	border: 1px solid red;
+	padding: 0;
+	box-sizing: border-box;
 }
