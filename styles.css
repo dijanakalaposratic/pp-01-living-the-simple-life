@@ -59,3 +59,29 @@ body {
 	color: var(--color-4);
 	letter-spacing: 1.6px;
 }
+
+.header__navbar {
+	display: flex;
+}
+
+.header__navbar__list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.header__navbar__list__item {
+	padding-left: 2em;
+}
+
+.header__navbar__list__item__link {
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--color-7);
+	letter-spacing: 3.2px;
+}
+
+.header__navbar__list__item__link:active {
+	border-bottom: 1px solid var(--color-7);
+}
