@@ -1,25 +1,61 @@
 /* VARIABLES */
 :root {
-	color-1: #ffffff;
-	color-2: #f8f8f8;
-	color-3: #ebebeb;
-	color-4: #1792d2;
-	color-5: #143774;
-	color-6: #707070;
-	color-7: #717171;
+	--color-1: #ffffff;
+	--color-2: #f8f8f8;
+	--color-3: #ebebeb;
+	--color-4: #1792d2;
+	--color-5: #143774;
+	--color-6: #707070;
+	--color-7: #717171;
 }
 
 /* RESET */
 * {
 	margin: 0;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* GENERAL */
 html,
 body {
+	/* GENERAL */
 	font-family: "Ubuntu", sans-serif;
 	scroll-behavior: smooth;
+}
+
+/* LAYOUT */
+
+.container--header {
+	background: var(--color-2);
+	width: 100%;
+	height: 12em;
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.header__logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header__logo__title {
+	font-family: "Lora", serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: var(--color-5);
+}
+
+.header__logo__description {
+	font-size: 0.7rem;
+	font-weight: 800;
+	color: var(--color-4);
+	letter-spacing: 1.6px;
 }
