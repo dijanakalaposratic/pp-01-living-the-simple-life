@@ -88,9 +88,15 @@ body {
 
 .container--content {
 	background: var(--color-1);
-	width: 100%;
+	width: 60%;
 	display: flex;
 	justify-content: center;
+	margin: 0 auto;
+	gap: 2em;
+}
+
+img {
+	width: 200px;
 }
 
 /* .container--content--main {
