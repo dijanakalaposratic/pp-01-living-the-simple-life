@@ -99,6 +99,10 @@ img {
 	width: 200px;
 }
 
+.main__article__top__img {
+	width: 100%;
+}
+
 /* .container--content--main {
 	width: 65%;
 	display: flex;
