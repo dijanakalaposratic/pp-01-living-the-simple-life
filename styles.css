@@ -7,6 +7,8 @@
 	--color-5: #143774;
 	--color-6: #707070;
 	--color-7: #717171;
+	--font-1: "Ubuntu", sans-serif;
+	--font-2: "Lora", serif;
 }
 
 /* RESET */
@@ -101,6 +103,17 @@ img {
 
 .main__article__top__img {
 	width: 100%;
+}
+
+.main__article__title {
+	font-family: "Lora", serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: var(--color-5);
+}
+
+.main__article__info {
+	font-family: "Ubuntu";
 }
 
 /* .container--content--main {
