@@ -7,8 +7,8 @@
 	--color-5: #143774;
 	--color-6: #707070;
 	--color-7: #717171;
-	--font-1: "Ubuntu", sans-serif;
-	--font-2: "Lora", serif;
+	--font-1-Ubuntu: "Ubuntu", sans-serif;
+	--font-2-Lora: "Lora", serif;
 }
 
 /* RESET */
@@ -22,7 +22,7 @@
 html,
 body {
 	/* GENERAL */
-	font-family: "Ubuntu", sans-serif;
+	font-family: var(--font-1-Ubuntu);
 	scroll-behavior: smooth;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .header__logo__title {
-	font-family: "Lora", serif;
+	font-family: var(--font-2-Lora);
 	font-size: 2rem;
 	font-weight: 300;
 	color: var(--color-5);
@@ -105,15 +105,20 @@ img {
 	width: 100%;
 }
 
+.main__article__info {
+	font-family: var(--font-1-Ubuntu);
+	font-size: 0.875rem;
+	font-weight: 300;
+	color: #707070;
+	margin-top: 1em;
+}
+
 .main__article__title {
-	font-family: "Lora", serif;
+	font-family: var(--font-2-Lora);
 	font-size: 1.5rem;
 	font-weight: 300;
 	color: var(--color-5);
-}
-
-.main__article__info {
-	font-family: "Ubuntu";
+	margin-top: 1em;
 }
 
 /* .container--content--main {
