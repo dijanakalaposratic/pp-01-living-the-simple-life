@@ -39,7 +39,7 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 60%;
+	width: 56%;
 }
 
 .header__logo {
@@ -77,7 +77,7 @@ body {
 }
 
 .header__navbar__list__item__link {
-	font-size: 0.8rem;
+	font-size: 0.875rem;
 	font-weight: 600;
 	text-decoration: none;
 	color: var(--color-7);
@@ -90,11 +90,11 @@ body {
 
 .container--content {
 	background: var(--color-1);
-	width: 60%;
+	width: 56%;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
-	gap: 2em;
+	gap: 3em;
 }
 
 img {
@@ -119,6 +119,15 @@ img {
 	font-weight: 300;
 	color: var(--color-5);
 	margin-top: 1em;
+}
+
+.main__arrticle__body {
+	font-family: var(--font-1-Ubuntu);
+	font-size: 1.125rem;
+	font-weight: 200;
+	color: #707070;
+	margin-top: 1em;
+	text-align: justify;
 }
 
 /* .container--content--main {
