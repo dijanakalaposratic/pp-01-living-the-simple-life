@@ -39,7 +39,7 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 56%;
+	width: 60%;
 }
 
 .header__logo {
@@ -90,7 +90,7 @@ body {
 
 .container--content {
 	background: var(--color-1);
-	width: 56%;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
@@ -124,10 +124,13 @@ img {
 .main__arrticle__body {
 	font-family: var(--font-1-Ubuntu);
 	font-size: 1.125rem;
-	font-weight: 200;
+	font-weight: 100;
 	color: #707070;
 	margin-top: 1em;
 	text-align: justify;
+}
+strong {
+	color: var(--color-6);
 }
 
 /* .container--content--main {
