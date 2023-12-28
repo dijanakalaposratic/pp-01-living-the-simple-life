@@ -57,9 +57,13 @@ body {
 
 .header__logo__description {
 	font-size: 0.75rem;
-	font-weight: 800;
-	color: var(--color-4);
+	font-weight: 700;
 	letter-spacing: 2px;
+}
+
+.header__logo__description,
+a {
+	color: var(--color-4);
 }
 
 .header__navbar {
@@ -91,7 +95,7 @@ body {
 .container--content {
 	background: var(--color-1);
 	width: 60%;
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 	margin: 0 auto;
 	gap: 3em;
@@ -137,9 +141,11 @@ strong {
 }
 
 .main__article__read-more {
-	color: var(--color-4);
+	display: block;
 	font-weight: 700;
 	text-decoration: none;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 /*.container--content--aside {
