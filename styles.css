@@ -136,14 +136,13 @@ strong {
 	font-size: 0.875rem;
 }
 
-/* .container--content--main {
-	width: 65%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+.main__article__read-more {
+	color: var(--color-4);
+	font-weight: 700;
+	text-decoration: none;
 }
 
-.container--content--aside {
+/*.container--content--aside {
 	width: 30%;
 	display: flex;
 	flex-direction: column;
