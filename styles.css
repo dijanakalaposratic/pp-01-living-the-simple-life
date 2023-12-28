@@ -106,10 +106,6 @@ img {
 	width: 100%;
 }
 
-.main__article__info {
-	font-size: 0.875rem;
-}
-
 .main__article__title {
 	font-family: var(--font-2-Lora);
 	font-size: 1.5rem;
@@ -133,6 +129,11 @@ img {
 
 strong {
 	color: var(--color-6);
+}
+
+.main__article__info,
+.main__article__read-more {
+	font-size: 0.875rem;
 }
 
 /* .container--content--main {
