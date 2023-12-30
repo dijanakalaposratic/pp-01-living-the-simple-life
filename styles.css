@@ -148,6 +148,12 @@ strong {
 	margin-bottom: 1.5em;
 }
 
+.main__article__read-more:hover,
+.main__article__read-more:focus {
+	color: var(--color-5);
+	text-decoration: underline;
+}
+
 /*.container--content--aside {
 	width: 30%;
 	display: flex;
