@@ -95,7 +95,7 @@ a {
 .container--content {
 	background: var(--color-1);
 	width: 60%;
-	/* display: flex; */
+	display: flex;
 	justify-content: center;
 	margin: 0 auto;
 	gap: 3em;
