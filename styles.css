@@ -96,9 +96,13 @@ a {
 	background: var(--color-1);
 	width: 60%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin: 0 auto;
-	gap: 3em;
+	/* gap: 3em; */
+}
+
+main {
+	width: 75%;
 }
 
 img {
@@ -169,6 +173,10 @@ strong {
 .main__article__read-more:focus {
 	color: var(--color-5);
 	text-decoration: underline;
+}
+
+aside {
+	width: 20%;
 }
 
 /*.container--content--aside {
