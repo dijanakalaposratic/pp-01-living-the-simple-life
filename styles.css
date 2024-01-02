@@ -110,12 +110,24 @@ img {
 	width: 100%;
 }
 
+.main__article {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__article__img-div {
+	width: 25%;
+}
+
+.main__article__body-div {
+	width: 70%;
+}
+
 .main__article__title {
 	font-family: var(--font-2-Lora);
 	font-size: 1.5rem;
 	font-weight: 300;
 	color: var(--color-5);
-	margin-top: 1em;
 }
 
 .main__article__body {
