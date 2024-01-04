@@ -186,6 +186,14 @@ aside {
 .aside__recent-posts {
 	border: 20px solid #efefef;
 	margin-bottom: 2em;
+	padding: 1em;
+}
+
+.aside-title {
+	font-size: 1rem;
+	font-family: var(--font-1-Ubuntu);
+	font-weight: 700;
+	margin-bottom: 1em;
 }
 
 /*.container--content--aside {
