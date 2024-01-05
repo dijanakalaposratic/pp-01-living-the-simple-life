@@ -189,8 +189,13 @@ aside {
 	padding: 1em;
 }
 
-.aside-title {
+.aside__about-me__title,
+.aside__recent-posts__title,
+.aside__recent-post__title {
 	font-size: 1rem;
+}
+
+.aside-title {
 	font-family: var(--font-1-Ubuntu);
 	font-weight: 700;
 	margin-bottom: 1em;
