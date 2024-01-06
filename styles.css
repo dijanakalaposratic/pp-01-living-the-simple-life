@@ -133,7 +133,8 @@ img {
 	width: 75%;
 }
 
-.main__article__title {
+.main__article__title,
+.aside__recent-post__title {
 	font-family: var(--font-2-Lora);
 	font-size: 1.5rem;
 	font-weight: 300;
@@ -199,6 +200,11 @@ aside {
 	font-family: var(--font-1-Ubuntu);
 	font-weight: 700;
 	margin-bottom: 1em;
+	color: var(--color-5);
+}
+
+.aside__about-me__body {
+	color: var(--color-5);
 }
 
 /*.container--content--aside {
