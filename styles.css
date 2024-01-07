@@ -193,7 +193,8 @@ aside {
 .aside__about-me__title,
 .aside__recent-posts__title,
 .aside__recent-post__title {
-	font-size: 1rem;
+	font-size: 1.125rem;
+	/* text-align: center; */
 }
 
 .aside-title {
@@ -205,6 +206,10 @@ aside {
 
 .aside__about-me__body {
 	color: var(--color-5);
+	font-family: var(--font-1-Ubuntu);
+	font-weight: 300;
+	font-size: 1rem;
+	padding: 1em 0;
 }
 
 /*.container--content--aside {
