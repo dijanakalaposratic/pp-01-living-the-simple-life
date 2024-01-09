@@ -146,12 +146,15 @@ img {
 	text-align: justify;
 }
 
+.main__article__info {
+	margin: 2em 0;
+}
+
 .main__article__info,
 .main__article__body {
 	font-family: var(--font-1-Ubuntu);
 	font-weight: 300;
 	color: var(--color-6);
-	margin: 2em 0;
 }
 
 strong {
@@ -195,6 +198,10 @@ aside {
 .aside__recent-post__title {
 	font-size: 1.125rem;
 	/* text-align: center; */
+}
+
+.aside__recent-post__title {
+	margin: 1em 0;
 }
 
 .aside-title {
