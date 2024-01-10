@@ -108,6 +108,7 @@ main {
 img {
 	width: 200px;
 	display: block;
+	align-items: center;
 }
 
 .main__article__top {
@@ -146,15 +147,16 @@ img {
 	text-align: justify;
 }
 
-.main__article__info {
+/* .main__article__info {
 	margin: 2em 0;
-}
+} */
 
 .main__article__info,
 .main__article__body {
 	font-family: var(--font-1-Ubuntu);
 	font-weight: 300;
 	color: var(--color-6);
+	margin: 1em 0;
 }
 
 strong {
@@ -219,11 +221,16 @@ aside {
 	padding: 1em 0;
 }
 
-/*.container--content--aside {
-	width: 30%;
+footer {
+	background-color: #143774;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: var(--font-1-Ubuntu);
+	height: 7em;
 	display: flex;
+	justify-content: center;
+	text-align: center;
 	flex-direction: column;
-	justify-content: flex-start;
-} */
+}
 
 /* 2:41:15 FONTS AND SIZES!!! */
