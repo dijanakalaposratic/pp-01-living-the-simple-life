@@ -226,7 +226,8 @@ footer {
 	color: #ffffff;
 	font-weight: 300;
 	font-family: var(--font-1-Ubuntu);
-	height: 7em;
+	font-size: 1em;
+	height: 6em;
 	display: flex;
 	justify-content: center;
 	text-align: center;
