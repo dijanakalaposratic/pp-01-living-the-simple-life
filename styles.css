@@ -106,12 +106,13 @@ main {
 }
 
 img {
-	width: 200px;
+	width: 180px;
 	display: block;
 	align-items: center;
 }
 
-.main__article__top {
+.main__article__top,
+.aside__recent-post {
 	border-bottom: 1px solid var(--color-6);
 	margin-bottom: 1.5em;
 }
@@ -130,8 +131,13 @@ img {
 	width: 30%;
 }
 
+.main__article__img {
+	width: 200px;
+	min-height: 250px;
+	object-fit: cover;
+}
 .main__article__body-div {
-	width: 75%;
+	width: 70%;
 }
 
 .main__article__title,
@@ -145,6 +151,7 @@ img {
 .main__article__body {
 	font-size: 1.125rem;
 	text-align: justify;
+	line-height: 1.8rem;
 }
 
 /* .main__article__info {
