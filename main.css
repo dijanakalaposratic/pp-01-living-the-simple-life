@@ -92,6 +92,11 @@ a {
 	border-bottom: 1px solid var(--color-7);
 }
 
+.active {
+	border-bottom: 2px solid var(--color-4);
+	padding-bottom: 0.5em;
+}
+
 .container--content {
 	background: var(--color-1);
 	width: 60%;
