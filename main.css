@@ -40,6 +40,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 60%;
+	max-width: 1200px;
 }
 
 .header__logo {
@@ -144,10 +145,10 @@ a {
 .container--content {
 	background: var(--color-1);
 	width: 60%;
+	max-width: 1200px;
 	display: flex;
 	justify-content: space-between;
 	margin: 3em auto;
-	/* gap: 3em; */
 }
 
 main {
@@ -155,7 +156,7 @@ main {
 }
 
 img {
-	width: 180px;
+	width: 97%;
 	display: block;
 	align-items: center;
 }
@@ -247,6 +248,7 @@ strong {
 aside {
 	width: 25%;
 	min-width: 200px;
+	max-width: 250px;
 	margin-left: 1em;
 }
 
