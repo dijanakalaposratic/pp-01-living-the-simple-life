@@ -320,7 +320,7 @@ aside {
 	}
 
 	img {
-		max-height: 200px;
+		max-height: 250px;
 		object-fit: cover;
 	}
 
@@ -346,6 +346,10 @@ aside {
 		align-items: center;
 		margin-bottom: 1em;
 		width: 100%;
+	}
+
+	.aside__recent-post:last-of-type {
+		margin-bottom: 0em;
 	}
 }
 
